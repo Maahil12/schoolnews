@@ -42,7 +42,7 @@ router.get("", async (req, res) => {
 // router.get('', async (req, res) => {
 //   const locals = {
 //     title: "NodeJs Blog",
-//     description: "Simple Blog created with NodeJs, Express & MongoDb."
+//     description: "School News MV."
 //   }
 
 //   try {
@@ -66,7 +66,7 @@ router.get("/post/:id", async (req, res) => {
 
     const locals = {
       title: data.title,
-      description: "Simple Blog created with NodeJs, Express & MongoDb.",
+      description: "School News MV.",
     };
 
     res.render("post", {
