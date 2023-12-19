@@ -9,7 +9,7 @@ const Post = require("../models/Post");
 router.get("", async (req, res) => {
   try {
     const locals = {
-      title: "School News MV",
+      title: "School News",
       description: "School News",
     };
 
